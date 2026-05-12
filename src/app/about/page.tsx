@@ -74,13 +74,13 @@ export default function LandingPage() {
           id: "t2",
           name: "Enzo Kaze",
           role: "Co-Founder · Paid Ads Specialist",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dc3uYiundOXcexzEdBZu1z2cV2/uploaded-1778570833122-i336hor1.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dc3uYiundOXcexzEdBZu1z2cV2/uploaded-1778570833122-i336hor1.png?_wi=1",
         },
         {
           id: "t3",
           name: "Mico Brandon",
           role: "Co-Founder · Creative Strategist",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dc3uYiundOXcexzEdBZu1z2cV2/uploaded-1778570833122-i336hor1.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Dc3uYiundOXcexzEdBZu1z2cV2/uploaded-1778570833122-i336hor1.png?_wi=2",
         },
       ]}
       title="Our Leadership Team"
