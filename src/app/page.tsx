@@ -29,33 +29,19 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "Pricing",
-          id: "/pricing",
-        },
+          name: "Pricing",          id: "/pricing"},
         {
-          name: "Case Studies",
-          id: "/case-studies",
-        },
+          name: "Case Studies",          id: "/case-studies"},
         {
-          name: "Process",
-          id: "/process",
-        },
+          name: "Process",          id: "/process"},
         {
-          name: "About",
-          id: "/about",
-        },
+          name: "About",          id: "/about"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="STRATFIELD GROWTH"
     />
@@ -64,19 +50,14 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroLogoBillboard
       background={{
-        variant: "radial-gradient",
-      }}
+        variant: "radial-gradient"}}
       logoText="STRATFIELD GROWTH"
       description="Scale Your Business with Data-Driven Marketing. We help ambitious businesses generate qualified leads and scale profitably using proven advertising systems. No guesswork, just measurable results."
       buttons={[
         {
-          text: "Book a Free Growth Audit",
-          href: "#",
-        },
+          text: "Book a Free Growth Audit",          href: "#"},
         {
-          text: "See Case Studies",
-          href: "/case-studies",
-        },
+          text: "See Case Studies",          href: "/case-studies"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/still-life-office-chair-indoors_23-2151108702.jpg"
       mediaAnimation="slide-up"
@@ -91,48 +72,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "David K.",
-          role: "E-commerce Brand Owner",
-          company: "Premium Lifestyle",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/mature-posing-with-blue-jacket_150588-81.jpg",
-        },
+          id: "1",          name: "David K.",          role: "E-commerce Brand Owner",          company: "Premium Lifestyle",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/mature-posing-with-blue-jacket_150588-81.jpg"},
         {
-          id: "2",
-          name: "Sarah L.",
-          role: "Marketing Director",
-          company: "TechInnovate",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-boy-with-glasses-holding-cup_23-2148450770.jpg",
-        },
+          id: "2",          name: "Sarah L.",          role: "Marketing Director",          company: "TechInnovate",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-boy-with-glasses-holding-cup_23-2148450770.jpg"},
         {
-          id: "3",
-          name: "Michael R.",
-          role: "Founder",
-          company: "LocalServices",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-beautiful-woman_23-2149151021.jpg",
-        },
+          id: "3",          name: "Michael R.",          role: "Founder",          company: "LocalServices",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-beautiful-woman_23-2149151021.jpg"},
         {
-          id: "4",
-          name: "Jessica M.",
-          role: "Director",
-          company: "GrowthCo",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/handsome-male-entrepreneur-wearing-white-shirt-posing-standing-with-crossed-arms-indoors_7502-9695.jpg",
-        },
+          id: "4",          name: "Jessica M.",          role: "Director",          company: "GrowthCo",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/handsome-male-entrepreneur-wearing-white-shirt-posing-standing-with-crossed-arms-indoors_7502-9695.jpg"},
         {
-          id: "5",
-          name: "Robert B.",
-          role: "Owner",
-          company: "B2B Sol",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-man-with-smartphone_23-2148613061.jpg",
-        },
+          id: "5",          name: "Robert B.",          role: "Owner",          company: "B2B Sol",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-man-with-smartphone_23-2148613061.jpg"},
       ]}
       title="Success Stories"
-      description="Real results from real clients who chose Stratfield."
+      description="Our clients average a 4.2x ROAS within the first 60 days of partnering with us, proving that strategic execution drives rapid, measurable growth."
     />
   </div>
 
@@ -146,30 +102,15 @@ export default function LandingPage() {
       description="Numbers that define our client success."
       metrics={[
         {
-          id: "m1",
-          value: "150M+",
-          description: "Managed Ad Spend",
-        },
+          id: "m1",          value: "150M+",          description: "Managed Ad Spend"},
         {
-          id: "m2",
-          value: "4.2x",
-          description: "Average ROAS Increase",
-        },
+          id: "m2",          value: "4.2x",          description: "Average ROAS Increase"},
         {
-          id: "m3",
-          value: "500k",
-          description: "Qualified Leads Generated",
-        },
+          id: "m3",          value: "500k",          description: "Qualified Leads Generated"},
         {
-          id: "m4",
-          value: "95%",
-          description: "Client Retention Rate",
-        },
+          id: "m4",          value: "95%",          description: "Client Retention Rate"},
         {
-          id: "m5",
-          value: "24/7",
-          description: "Monitoring & Support",
-        },
+          id: "m5",          value: "24/7",          description: "Monitoring & Support"},
       ]}
     />
   </div>
@@ -181,9 +122,7 @@ export default function LandingPage() {
       title="Built for Founders Who Value Execution Over Excuses."
       buttons={[
         {
-          text: "Learn More",
-          href: "/about",
-        },
+          text: "Learn More",          href: "/about"},
       ]}
     />
   </div>
@@ -192,16 +131,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Ready to move?"
       title="Let's build your growth engine."
       description="Join other industry leaders and start scaling today."
       buttons={[
         {
-          text: "Inquire Now",
-          href: "/contact",
-        },
+          text: "Inquire Now",          href: "/contact"},
       ]}
     />
   </div>
@@ -211,50 +147,31 @@ export default function LandingPage() {
       logoText="STRATFIELD GROWTH"
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About",
-              href: "/about",
-            },
+              label: "About",              href: "/about"},
             {
-              label: "Process",
-              href: "/process",
-            },
+              label: "Process",              href: "/process"},
             {
-              label: "Contact",
-              href: "/contact",
-            },
+              label: "Contact",              href: "/contact"},
           ],
         },
         {
-          title: "Services",
-          items: [
+          title: "Services",          items: [
             {
-              label: "Services",
-              href: "/services",
-            },
+              label: "Services",              href: "/services"},
             {
-              label: "Pricing",
-              href: "/pricing",
-            },
+              label: "Pricing",              href: "/pricing"},
             {
-              label: "Case Studies",
-              href: "/case-studies",
-            },
+              label: "Case Studies",              href: "/case-studies"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms & Conditions",
-              href: "#",
-            },
+              label: "Terms & Conditions",              href: "#"},
           ],
         },
       ]}
